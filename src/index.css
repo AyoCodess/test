@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.dropdown-menu {
+  height: 0;
+  opacity: 0;
+  transition: height 0.3s
+}
